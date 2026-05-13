@@ -1,0 +1,45 @@
+{
+  "name": "ip-legal",
+  "version": "1.0.2",
+  "description": "Runs first-pass trademark clearance and freedom-to-operate triage, screens invention disclosures for initial patentability, drafts and triages cease-and-desist letters and DMCA takedowns (send and respond), checks open source compliance, reviews IP clauses, and tracks registrations and renewal deadlines.",
+  "author": {
+    "name": "Anthropic"
+  },
+  "homepage": "https://github.com/anthropics/claude-for-legal",
+  "repository": "https://github.com/anthropics/claude-for-legal",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex-for-legal",
+    "codex",
+    "ip",
+    "law",
+    "legal"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "IP Legal",
+    "shortDescription": "Runs first-pass trademark clearance and freedom-to-operate triage, screens invention disclosures for initial patentability, drafts and tria\u2026",
+    "longDescription": "Runs first-pass trademark clearance and freedom-to-operate triage, screens invention disclosures for initial patentability, drafts and triages cease-and-desist letters and DMCA takedowns (send and respond), checks open source compliance, reviews IP clauses, and tracks registrations and renewal deadlines. Migrated for Codex as a repo-scoped plugin. V1 supports local files and pasted text by default; remote connectors must be configured separately.",
+    "developerName": "Anthropic",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/anthropics/claude-for-legal",
+    "privacyPolicyURL": "https://www.anthropic.com/legal/privacy",
+    "termsOfServiceURL": "https://www.anthropic.com/legal/consumer-terms",
+    "defaultPrompt": [
+      "Use IP Legal with local files or pasted text."
+    ],
+    "brandColor": "#1F2937",
+    "screenshots": []
+  },
+  "contributors": [
+    {
+      "name": "Alexander C. H. Lou",
+      "role": "Codex migration and adaptation"
+    }
+  ]
+}

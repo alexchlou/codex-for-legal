@@ -1,0 +1,45 @@
+{
+  "name": "corporate-legal",
+  "version": "1.0.2",
+  "description": "Runs M&A diligence at scale with cited tabular review, builds disclosure schedules and closing checklists, drafts board consents and minutes in house format, and tracks entity compliance deadlines across jurisdictions.",
+  "author": {
+    "name": "Anthropic"
+  },
+  "homepage": "https://github.com/anthropics/claude-for-legal",
+  "repository": "https://github.com/anthropics/claude-for-legal",
+  "license": "Apache-2.0",
+  "keywords": [
+    "claude-for-legal",
+    "codex",
+    "corporate",
+    "law",
+    "legal"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Corporate Legal",
+    "shortDescription": "Runs M&A diligence at scale with cited tabular review, builds disclosure schedules and closing checklists, drafts board consents and minute\u2026",
+    "longDescription": "Runs M&A diligence at scale with cited tabular review, builds disclosure schedules and closing checklists, drafts board consents and minutes in house format, and tracks entity compliance deadlines across jurisdictions. Migrated for Codex as a repo-scoped plugin. V1 supports local files and pasted text by default; remote connectors must be configured separately.",
+    "developerName": "Anthropic",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/anthropics/claude-for-legal",
+    "privacyPolicyURL": "https://www.anthropic.com/legal/privacy",
+    "termsOfServiceURL": "https://www.anthropic.com/legal/consumer-terms",
+    "defaultPrompt": [
+      "Use Corporate Legal with local files or pasted text."
+    ],
+    "brandColor": "#1F2937",
+    "screenshots": []
+  },
+  "contributors": [
+    {
+      "name": "Alexander C. H. Lou",
+      "role": "Codex migration and adaptation"
+    }
+  ]
+}

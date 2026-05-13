@@ -1,0 +1,45 @@
+{
+  "name": "regulatory-legal",
+  "version": "1.0.2",
+  "description": "Watches regulatory feeds, diffs new rules against your policy library, tracks comment deadlines and open gaps, and writes the digest your team reads Monday morning.",
+  "author": {
+    "name": "Anthropic"
+  },
+  "homepage": "https://github.com/anthropics/claude-for-legal",
+  "repository": "https://github.com/anthropics/claude-for-legal",
+  "license": "Apache-2.0",
+  "keywords": [
+    "claude-for-legal",
+    "codex",
+    "law",
+    "legal",
+    "regulatory"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Regulatory Legal",
+    "shortDescription": "Watches regulatory feeds, diffs new rules against your policy library, tracks comment deadlines and open gaps, and writes the digest your t\u2026",
+    "longDescription": "Watches regulatory feeds, diffs new rules against your policy library, tracks comment deadlines and open gaps, and writes the digest your team reads Monday morning. Migrated for Codex as a repo-scoped plugin. V1 supports local files and pasted text by default; remote connectors must be configured separately.",
+    "developerName": "Anthropic",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/anthropics/claude-for-legal",
+    "privacyPolicyURL": "https://www.anthropic.com/legal/privacy",
+    "termsOfServiceURL": "https://www.anthropic.com/legal/consumer-terms",
+    "defaultPrompt": [
+      "Use Regulatory Legal with local files or pasted text."
+    ],
+    "brandColor": "#1F2937",
+    "screenshots": []
+  },
+  "contributors": [
+    {
+      "name": "Alexander C. H. Lou",
+      "role": "Codex migration and adaptation"
+    }
+  ]
+}

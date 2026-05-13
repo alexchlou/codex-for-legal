@@ -1,0 +1,44 @@
+{
+  "name": "law-student",
+  "version": "1.0.2",
+  "description": "Drills Socratically, briefs cases, builds outlines, runs bar prep sessions tuned to your jurisdiction, grades IRAC practice, and plans the study schedule \u2014 without ever writing it for you.",
+  "author": {
+    "name": "Anthropic"
+  },
+  "homepage": "https://github.com/anthropics/claude-for-legal",
+  "repository": "https://github.com/anthropics/claude-for-legal",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex-for-legal",
+    "codex",
+    "law",
+    "legal",
+    "student"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Law Student",
+    "shortDescription": "Drills Socratically, briefs cases, builds outlines, runs bar prep sessions tuned to your jurisdiction, grades IRAC practice, and plans the\u2026",
+    "longDescription": "Drills Socratically, briefs cases, builds outlines, runs bar prep sessions tuned to your jurisdiction, grades IRAC practice, and plans the study schedule \u2014 without ever writing it for you. Migrated for Codex as a repo-scoped plugin. V1 supports local files and pasted text by default; remote connectors must be configured separately.",
+    "developerName": "Anthropic",
+    "category": "Research",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "websiteURL": "https://github.com/anthropics/claude-for-legal",
+    "privacyPolicyURL": "https://www.anthropic.com/legal/privacy",
+    "termsOfServiceURL": "https://www.anthropic.com/legal/consumer-terms",
+    "defaultPrompt": [
+      "Use Law Student with local files or pasted text."
+    ],
+    "brandColor": "#1F2937",
+    "screenshots": []
+  },
+  "contributors": [
+    {
+      "name": "Alexander C. H. Lou",
+      "role": "Codex migration and adaptation"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "litigation-legal",
+  "version": "1.0.2",
+  "description": "Manages the litigation portfolio \u2014 matters, deadlines, holds, demands, outside counsel \u2014 and does the work: claim charts (patent and civil), chronologies, depo prep, privilege logs, brief drafting. Adapts to how you work litigation: in-house, firm, or solo.",
+  "author": {
+    "name": "Anthropic"
+  },
+  "homepage": "https://github.com/anthropics/claude-for-legal",
+  "repository": "https://github.com/anthropics/claude-for-legal",
+  "license": "Apache-2.0",
+  "keywords": [
+    "claude-for-legal",
+    "codex",
+    "law",
+    "legal",
+    "litigation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Litigation Legal",
+    "shortDescription": "Manages the litigation portfolio \u2014 matters, deadlines, holds, demands, outside counsel \u2014 and does the work: claim charts (patent and civil)\u2026",
+    "longDescription": "Manages the litigation portfolio \u2014 matters, deadlines, holds, demands, outside counsel \u2014 and does the work: claim charts (patent and civil), chronologies, depo prep, privilege logs, brief drafting. Adapts to how you work litigation: in-house, firm, or solo. Migrated for Codex as a repo-scoped plugin. V1 supports local files and pasted text by default; remote connectors must be configured separately.",
+    "developerName": "Anthropic",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/anthropics/claude-for-legal",
+    "privacyPolicyURL": "https://www.anthropic.com/legal/privacy",
+    "termsOfServiceURL": "https://www.anthropic.com/legal/consumer-terms",
+    "defaultPrompt": [
+      "Use Litigation Legal with local files or pasted text."
+    ],
+    "brandColor": "#1F2937",
+    "screenshots": []
+  },
+  "contributors": [
+    {
+      "name": "Alexander C. H. Lou",
+      "role": "Codex migration and adaptation"
+    }
+  ]
+}

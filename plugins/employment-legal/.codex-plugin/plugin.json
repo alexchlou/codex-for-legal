@@ -1,0 +1,45 @@
+{
+  "name": "employment-legal",
+  "version": "1.0.2",
+  "description": "Reviews hires and terminations for jurisdiction-specific risk flags, classifies workers against the controlling state test, tracks leave deadlines before they're missed, runs internal investigations, and drafts policies with state supplements where the law differs.",
+  "author": {
+    "name": "Anthropic"
+  },
+  "homepage": "https://github.com/anthropics/claude-for-legal",
+  "repository": "https://github.com/anthropics/claude-for-legal",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex-for-legal",
+    "codex",
+    "employment",
+    "law",
+    "legal"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Employment Legal",
+    "shortDescription": "Reviews hires and terminations for jurisdiction-specific risk flags, classifies workers against the controlling state test, tracks leave de\u2026",
+    "longDescription": "Reviews hires and terminations for jurisdiction-specific risk flags, classifies workers against the controlling state test, tracks leave deadlines before they're missed, runs internal investigations, and drafts policies with state supplements where the law differs. Migrated for Codex as a repo-scoped plugin. V1 supports local files and pasted text by default; remote connectors must be configured separately.",
+    "developerName": "Anthropic",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/anthropics/claude-for-legal",
+    "privacyPolicyURL": "https://www.anthropic.com/legal/privacy",
+    "termsOfServiceURL": "https://www.anthropic.com/legal/consumer-terms",
+    "defaultPrompt": [
+      "Use Employment Legal with local files or pasted text."
+    ],
+    "brandColor": "#1F2937",
+    "screenshots": []
+  },
+  "contributors": [
+    {
+      "name": "Alexander C. H. Lou",
+      "role": "Codex migration and adaptation"
+    }
+  ]
+}

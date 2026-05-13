@@ -1,0 +1,46 @@
+{
+  "name": "legal-builder-hub",
+  "version": "1.0.2",
+  "description": "Finds, evaluates, and installs community legal skills \u2014 with a security review gate before anything lands in your environment.",
+  "author": {
+    "name": "Anthropic"
+  },
+  "homepage": "https://github.com/anthropics/claude-for-legal",
+  "repository": "https://github.com/anthropics/claude-for-legal",
+  "license": "Apache-2.0",
+  "keywords": [
+    "builder",
+    "claude-for-legal",
+    "codex",
+    "hub",
+    "law",
+    "legal"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Legal Builder Hub",
+    "shortDescription": "Finds, evaluates, and installs community legal skills \u2014 with a security review gate before anything lands in your environment.",
+    "longDescription": "Finds, evaluates, and installs community legal skills \u2014 with a security review gate before anything lands in your environment. Migrated for Codex as a repo-scoped plugin. V1 supports local files and pasted text by default; remote connectors must be configured separately.",
+    "developerName": "Anthropic",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/anthropics/claude-for-legal",
+    "privacyPolicyURL": "https://www.anthropic.com/legal/privacy",
+    "termsOfServiceURL": "https://www.anthropic.com/legal/consumer-terms",
+    "defaultPrompt": [
+      "Use Legal Builder Hub with local files or pasted text."
+    ],
+    "brandColor": "#1F2937",
+    "screenshots": []
+  },
+  "contributors": [
+    {
+      "name": "Alexander C. H. Lou",
+      "role": "Codex migration and adaptation"
+    }
+  ]
+}
