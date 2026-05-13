@@ -4,10 +4,10 @@ This repository exposes Anthropic's legal workflow suite as a Codex repo-scoped 
 
 ## Install In Codex
 
-1. From this repository root, add the marketplace:
+1. Add the public marketplace:
 
    ```bash
-   codex plugin marketplace add .
+   codex plugin marketplace add alexchlou/codex-for-legal
    ```
 
 2. Restart Codex.
@@ -23,6 +23,8 @@ This repository exposes Anthropic's legal workflow suite as a Codex repo-scoped 
    ```
 
    `config/local/` is ignored by git and is the right place for house style, playbooks, approval matrices, and matter-specific preferences.
+
+For local development from a clone, you can run `codex plugin marketplace add .` from the repository root. Local-path installs are not Git-backed, so use the public install command above if you want `upgrade` to pull from GitHub.
 
 ## First Skill To Try
 
@@ -50,7 +52,7 @@ Archived upstream connector metadata lives under each plugin's `references/mcp/`
 
 ## Refresh
 
-After editing the marketplace or plugin files:
+For the public Git-backed install:
 
 ```bash
 codex plugin marketplace upgrade codex-for-legal

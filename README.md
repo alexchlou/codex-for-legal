@@ -17,19 +17,27 @@ This is an unofficial adaptation. It is not affiliated with, endorsed by, or spo
 
 ## Codex Setup
 
-From this repository root:
+Recommended public install:
+
+```bash
+codex plugin marketplace add alexchlou/codex-for-legal
+```
+
+Restart Codex, open the Plugin Directory, select the `Codex for Legal` marketplace, and install the practice-area plugins you need.
+
+To refresh a Git-backed install:
+
+```bash
+codex plugin marketplace upgrade codex-for-legal
+```
+
+For local development from a clone, run this from the repository root:
 
 ```bash
 codex plugin marketplace add .
 ```
 
-Restart Codex, open the Plugin Directory, select the `Codex for Legal` marketplace, and install the practice-area plugins you need.
-
-To refresh this marketplace after edits:
-
-```bash
-codex plugin marketplace upgrade codex-for-legal
-```
+Local-path installs are not Git-backed, so `upgrade` does not apply to them. Use the public install command above if you want Codex to update from GitHub.
 
 ## Local Legal Configuration
 
